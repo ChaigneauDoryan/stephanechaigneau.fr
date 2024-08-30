@@ -23,7 +23,7 @@ export default {
       { name: "author", content: "Stéphane Chaigneau" },
       {
         name: "keywords",
-        content: "Stéphane, Chaigneau, Stéphane Chaigneau, StéphaneChaigneau, stéphaneChaigneau, Stéphanechaigneau, stéphanechaigneau, stéphane, chaigneau, parcours professionnel, expérience, compétences, services, prestations, PME, EURL, freelance"
+        content: "Stéphane, Chaigneau, Stéphane Chaigneau, StéphaneChaigneau, stéphaneChaigneau, Stéphanechaigneau, stéphanechaigneau, stéphane, chaigneau, parcours professionnel, expérience, compétences, services, prestations, PME, EURL, freelance, business developer"
       },
       { property: "og:title", content: "Stéphane Chaigneau" },
       { property: "og:type", content: "website" },
@@ -38,7 +38,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [ '~/assets/css/main.css' ],
+  css: [ '~/assets/css/main.css', '@fortawesome/fontawesome-free/css/all.min.css' ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
