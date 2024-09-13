@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Section d'introduction avec un fond plus clair et une marge supérieure -->
-    <section class="py-16 bg-white mt-16">
+    <section class="py-8 bg-white mt-8">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-4xl font-bold mb-4 text-gray-800">Mes Prestations</h2>
         <p class="text-lg text-gray-600 mb-8">En tant que consultant en stratégie commerciale, j'aide les entreprises à maximiser leur potentiel de croissance, optimiser leurs processus de vente, et former des équipes performantes.</p>
@@ -53,16 +53,7 @@
           <p class="text-gray-700 mb-6">Analyser vos performances commerciales actuelles et fournir des recommandations claires pour les améliorer.</p>
           <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
         </div>
-
       </div>
-    </section>
-    
-    <!-- Section d'appel à l'action avec une couleur d'arrière-plan distincte -->
-    <section class="py-16 bg-white">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-semibold text-gray-800 mb-6">Prêt à faire passer votre entreprise au niveau supérieur ?</h2>
-        <NuxtLink to="/contact" class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700">Contactez-moi dès aujourd'hui</NuxtLink>
-      </div><br><br>
     </section>
   </div>
 </template>

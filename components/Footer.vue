@@ -10,14 +10,14 @@
         <div>
           <p class="text-white">Stéphane CHAIGNEAU</p>
           <p class="mt-2">41 Rue André Soulard<br>85000 La Roche-sur-Yon, France</p>
-          <p class="mt-2 flex items-center">
+          <a href="mailto:stephane.chaigneau@hotmail.fr" class="mt-2 flex items-center text-white hover:underline">
             <i class="fas fa-envelope mr-2"></i>
             stephane.chaigneau@hotmail.fr
-          </p>
-          <p class="flex items-center">
+          </a>
+          <a href="tel:+33674814090" class="flex items-center text-white hover:underline">
             <i class="fas fa-phone-alt mr-2"></i>
             +33 6 74 81 40 90
-          </p>
+          </a>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
 
       <!-- Réseaux Sociaux et Mentions Légales -->
       <div class="flex flex-col md:items-end">
-        <a href="https://www.linkedin.com" class="flex items-center mb-4 text-white hover:underline">
+        <a href="https://www.linkedin.com/in/stephane-chaigneau-426364a3/" target="_blank" class="flex items-center mb-4 text-white hover:underline">
           <i class="fab fa-linkedin mr-2"></i>
           Suivez-nous
         </a>

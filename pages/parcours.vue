@@ -1,11 +1,11 @@
 <template>
   <div>
-    <section class="py-16">
-      <h2 class="text-3xl font-semibold text-center">Parcours et pourquoi choisir mes services ?</h2>
+    <section class="py-8 bg-white mt-8">
+      <h2 class="text-4xl font-bold text-center">Parcours</h2>
       <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <!-- Carte 1 -->
         <div 
-          class="group perspective w-full md:w-64 mx-auto" 
+          class="group perspective w-full md:w-128 mx-auto" 
           @click="toggleFlip('card1')"
           :class="{'cursor-pointer': isMobile}"
         >
@@ -38,7 +38,7 @@
         
         <!-- Carte 2 -->
         <div 
-          class="group perspective w-full md:w-64 mx-auto" 
+          class="group perspective w-full md:w-128 mx-auto" 
           @click="toggleFlip('card2')"
           :class="{'cursor-pointer': isMobile}"
         >
@@ -70,18 +70,17 @@
         
         <!-- Carte 3 -->
         <div 
-          class="group perspective w-full md:w-64 mx-auto" 
-          @click="toggleFlip('card2')"
+          class="group perspective w-full md:w-128 mx-auto" 
+          @click="toggleFlip('card3')"
           :class="{'cursor-pointer': isMobile}"
         >
           <div 
             class="relative w-full h-80 transform-style preserve-3d transition-transform duration-700"
-            :class="{'rotate-y-180': flippedCard === 'card2' && isMobile, 'group-hover:rotate-y-180': !isMobile}"
+            :class="{'rotate-y-180': flippedCard === 'card3' && isMobile, 'group-hover:rotate-y-180': !isMobile}"
           >
             <!-- Recto -->
             <div class="absolute inset-0 backface-hidden w-full h-full bg-white shadow-lg rounded-lg p-6 group-hover:shadow-2xl transition-shadow duration-300">
-              <h3 class="text-2xl font-bold">Poste 2</h3>
-              <p class="text-gray-600">Années : 2017 - 2020</p>
+              <h3 class="text-2xl font-bold">Pourquoi choisir mes services ?</h3>
               <div class="absolute bottom-4 right-4 flex items-center text-gray-500 opacity-75 group-hover:opacity-100 transition-opacity duration-300">
                 <i class="fas fa-sync-alt mr-2"></i>
                 <span class="text-sm" v-if="isMobile">Cliquez pour retourner</span>
