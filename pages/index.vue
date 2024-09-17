@@ -17,19 +17,16 @@
           <i class="fas fa-network-wired text-green-600 text-4xl mb-4"></i>
           <h3 class="text-2xl font-semibold mb-4 text-green-600">Référencement nouveaux clients / réseaux de distribution</h3>
           <p class="text-gray-700 mb-4">Identifiez de nouvelles opportunités de croissance grâce à un nouveau portefeuille clients.</p>
-          <NuxtLink to="/prestations" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
           <i class="fas fa-handshake text-green-600 text-4xl mb-4"></i>
           <h3 class="text-2xl font-semibold mb-4 text-green-600">Gestion commerciale</h3>
           <p class="text-gray-700 mb-4">Management de transition ou suivi permanent des dossiers clients.</p>
-          <NuxtLink to="/prestations" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
           <i class="fas fa-lightbulb text-green-600 text-4xl mb-4"></i>
           <h3 class="text-2xl font-semibold mb-4 text-green-600">Développement de nouveaux produits / concepts</h3>
           <p class="text-gray-700 mb-4">Renforcez votre position sur le marché via l'innovation.</p>
-          <NuxtLink to="/prestations" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
         </div>
       </div>
     </section>
@@ -38,6 +35,7 @@
       <div class="max-w-6xl mx-auto px-4 text-center">
         <h2 class="text-4xl font-bold mb-4 text-gray-800">Pourquoi choisir mes services ?</h2>
         <p class="text-lg text-gray-600 mb-6">Fort de 25 ans d'expérience dans le commerce du secteur agroalimentaire, j'accompagne les entreprises dans leur développement commercial à travers différentes missions adaptées à leurs besoins.</p>
+        <NuxtLink to="/parcours" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
       </div>
     </section>
 
