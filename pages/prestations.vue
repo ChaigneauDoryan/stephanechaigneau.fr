@@ -10,48 +10,21 @@
 
     <!-- Section des Prestations avec une grille moderne -->
     <section class="py-16 bg-gray-50">
-      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        
-        <!-- Carte de Prestation 1 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Analyse de Marché</h3>
-          <p class="text-gray-700 mb-6">Évaluer la dynamique de votre marché et identifier de nouvelles opportunités de croissance grâce à des analyses de données approfondies.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
+        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-network-wired text-green-600 text-4xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-4 text-green-600">Référencement nouveaux clients / réseaux de distribution</h3>
+          <p class="text-gray-700 mb-4">Identifiez de nouvelles opportunités de croissance grâce à un nouveau portefeuille clients.</p>
         </div>
-
-        <!-- Carte de Prestation 2 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Stratégie Commerciale</h3>
-          <p class="text-gray-700 mb-6">Développer des stratégies personnalisées pour renforcer votre position sur le marché et améliorer vos résultats commerciaux.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
+        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-handshake text-green-600 text-4xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-4 text-green-600">Gestion commerciale</h3>
+          <p class="text-gray-700 mb-4">Management de transition ou suivi permanent des dossiers clients.</p>
         </div>
-
-        <!-- Carte de Prestation 3 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Optimisation des Processus de Vente</h3>
-          <p class="text-gray-700 mb-6">Identifier et éliminer les inefficacités dans vos processus de vente pour améliorer votre taux de conversion et augmenter vos revenus.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
-        </div>
-
-        <!-- Carte de Prestation 4 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Formation des Équipes de Vente</h3>
-          <p class="text-gray-700 mb-6">Former vos équipes de vente pour maximiser leur performance grâce à des techniques de vente avancées et une connaissance approfondie du marché.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
-        </div>
-
-        <!-- Carte de Prestation 5 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Développement de Partenariats Stratégiques</h3>
-          <p class="text-gray-700 mb-6">Identifier et nouer des partenariats stratégiques pour étendre votre portée et pénétrer de nouveaux segments de marché.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
-        </div>
-
-        <!-- Carte de Prestation 6 -->
-        <div class="bg-white shadow-md rounded-lg p-8 hover:shadow-xl transition-shadow duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Audit et Conseil en Performance Commerciale</h3>
-          <p class="text-gray-700 mb-6">Analyser vos performances commerciales actuelles et fournir des recommandations claires pour les améliorer.</p>
-          <NuxtLink to="/contact" class="text-green-600 hover:underline">En savoir plus &rarr;</NuxtLink>
+        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-lightbulb text-green-600 text-4xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-4 text-green-600">Développement de nouveaux produits / concepts</h3>
+          <p class="text-gray-700 mb-4">Renforcez votre position sur le marché via l'innovation.</p>
         </div>
       </div>
     </section>
