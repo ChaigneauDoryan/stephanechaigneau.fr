@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="py-8 bg-white mt-8">
-      <h2 class="text-4xl font-bold text-center mb-12">Parcours</h2>
+      <h2 class="text-4xl font-bold mb-4 text-gray-800 text-center">Expériences et pourquoi me choisir ?</h2>
       <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <!-- Carte 1 -->
         <div 
@@ -68,39 +68,39 @@
             :class="{'rotate-y-180': flippedCard === 'card3' && isMobile, 'group-hover:rotate-y-180': !isMobile}"
           >
             <!-- Recto -->
-            <div class="absolute inset-0 backface-hidden w-full h-full bg-white shadow-lg rounded-lg p-6 flex flex-col justify-center items-center text-center group-hover:shadow-2xl transition-shadow duration-300">
-              <i class="fas fa-question-circle text-green-600 text-4xl mb-4"></i>
-              <h3 class="text-2xl font-bold mb-2">Pourquoi choisir mes services ?</h3>
-              <div class="absolute bottom-4 right-4 flex items-center text-gray-500 opacity-75 group-hover:opacity-100 transition-opacity duration-300">
-                <i class="fas fa-sync-alt mr-2"></i>
-                <span class="text-sm" v-if="isMobile">Cliquez pour retourner</span>
-                <span class="text-sm" v-else>Survolez pour retourner</span>
+            <div class="absolute inset-0 backface-hidden w-full h-full bg-white shadow-lg rounded-lg p-4 flex flex-col justify-center items-center text-center group-hover:shadow-2xl transition-shadow duration-300">
+              <i class="fas fa-question-circle text-green-600 text-4xl mb-2"></i>
+              <h3 class="text-xl font-bold mb-1">Pourquoi choisir mes services ?</h3>
+              <div class="absolute bottom-2 right-2 flex items-center text-gray-500 opacity-75 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-sync-alt mr-1"></i>
+                <span class="text-xs" v-if="isMobile">Cliquez pour retourner</span>
+                <span class="text-xs" v-else>Survolez pour retourner</span>
               </div>
             </div>
             <!-- Verso -->
-            <div class="absolute inset-0 backface-hidden w-full h-full bg-gradient-to-br from-green-500 to-green-700 shadow-lg rounded-lg p-6 rotate-y-180 flex flex-col justify-center text-center text-white">
-              <!-- Design plus original -->
-              <div class="space-y-4">
-                <div class="flex items-center justify-center">
-                  <i class="fas fa-tools text-2xl mr-2"></i>
-                  <span class="font-bold">Opérationnalité</span>
-                  <p class="ml-2">Une approche opérationnelle et pragmatique des missions.</p>
+            <div class="absolute inset-0 backface-hidden w-full h-full bg-gradient-to-br from-green-500 to-green-700 shadow-lg rounded-lg p-4 rotate-y-180 flex flex-col justify-center items-center text-center text-white">
+              <!-- Design en une seule colonne adapté -->
+              <div class="space-y-3">
+                <div class="flex flex-col items-center mb-2">
+                  <i class="fas fa-tools text-2xl mb-1"></i>
+                  <h3 class="font-bold text-sm">Opérationnalité</h3>
+                  <p class="text-center text-xs">Une approche opérationnelle et pragmatique des missions.</p>
                 </div>
-                <div class="flex items-center justify-center">
-                  <i class="fas fa-arrows-alt text-2xl mr-2"></i>
-                  <span class="font-bold">Souplesse</span>
-                  <p class="ml-2">Structure légère capable de s'adapter aux contraintes et spécificités des clients.</p>
+                <div class="flex flex-col items-center mb-2">
+                  <i class="fas fa-arrows-alt text-2xl mb-1"></i>
+                  <h3 class="font-bold text-sm">Souplesse</h3>
+                  <p class="text-center text-xs">Structure légère capable de s'adapter aux contraintes et spécificités des clients.</p>
                 </div>
-                <div class="flex items-center justify-center">
-                  <i class="fas fa-chart-line text-2xl mr-2"></i>
-                  <span class="font-bold">Vision à long terme</span>
-                  <p class="ml-2">Volonté d'établir une relation de partenariat durable.</p>
+                <div class="flex flex-col items-center">
+                  <i class="fas fa-chart-line text-2xl mb-1"></i>
+                  <h3 class="font-bold text-sm">Vision à long terme</h3>
+                  <p class="text-center text-xs">Volonté d'établir une relation de partenariat durable.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </section>
   </div>
 </template>
