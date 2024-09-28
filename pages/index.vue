@@ -25,7 +25,7 @@
         </div>
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
           <i class="fas fa-lightbulb text-green-600 text-4xl mb-4"></i>
-          <h3 class="text-2xl font-semibold mb-4 text-green-600">Accompagnement dans le domaine de l'innovation / concepts</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-green-600">Accompagnement dans le domaine de l'innovation</h3>
           <p class="text-gray-700 mb-4">Renforcez votre position sur le marché via la créativité et le développement de nouveaux produits.</p>
         </div>
       </div>
