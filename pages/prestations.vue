@@ -19,7 +19,7 @@
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
           <i class="fas fa-handshake text-green-600 text-4xl mb-4"></i>
           <h3 class="text-2xl font-semibold mb-4 text-green-600">Développement commercial</h3>
-          <p class="text-gray-700 mb-4">Management de transition ou suivi permanent des dossiers clients.</p>
+          <p class="text-gray-700 mb-4">Management de transition / développement commercial des "comptes clés".</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
           <i class="fas fa-lightbulb text-green-600 text-4xl mb-4"></i>
