@@ -23,7 +23,7 @@ export default {
       { name: "author", content: "Stéphane Chaigneau" },
       {
         name: "keywords",
-        content: "Stéphane, Chaigneau, Stéphane Chaigneau, StéphaneChaigneau, stéphaneChaigneau, Stéphanechaigneau, stéphanechaigneau, stéphane, chaigneau, parcours professionnel, expérience, compétences, services, prestations, PME, EURL, freelance, business developer"
+        content: "Stéphane, Chaigneau, Stéphane Chaigneau, StéphaneChaigneau, stéphaneChaigneau, Stéphanechaigneau, stéphanechaigneau, stéphane, chaigneau, freelance, business developer, Développement commercial, Innovation, Management de transition"
       },
       { property: "og:title", content: "Stéphane Chaigneau" },
       { property: "og:type", content: "website" },
