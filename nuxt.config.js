@@ -27,7 +27,7 @@ export default {
       },
       { property: "og:title", content: "Stéphane Chaigneau" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://stephanechaigneau.fr/" },
+      { property: "og:url", content: "https://devco-agro.com/" },
       { property: "og:site_name", content: "Stéphane Chaigneau" },
       {
         property: "og:description",
@@ -57,7 +57,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://stephanechaigneau.fr',
+    hostname: 'https://devco-agro.com/',
     routes: [
       '/parcours',
       '/prestations',
