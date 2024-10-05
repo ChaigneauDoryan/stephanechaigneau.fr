@@ -2,7 +2,7 @@
   <div>
     <section class="py-8 bg-white mt-8">
       <h2 class="text-4xl font-bold text-center">Contact</h2>
-      <form @submit.prevent="sendEmail" class="max-w-xl mx-auto mt-8 relative">
+      <form @submit.prevent="sendEmail" class="max-w-xl mx-auto mt-8 relative px-4 md:px-0"> <!-- Ajout de padding pour mobile -->
         <!-- Champ Nom -->
         <div class="mb-4">
           <label class="block text-gray-700">Nom :</label>
@@ -50,13 +50,13 @@
         </div>
 
         <!-- Bouton d'envoi et Popup -->
-        <div class="flex items-center">
-          <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
+        <div class="flex flex-col md:flex-row items-center"> <!-- Alignement pour mobile et desktop -->
+          <button type="submit" class="bg-green-600 text-white w-full md:w-auto px-4 py-2 rounded-md hover:bg-green-700">
             Envoyer
           </button>
 
           <!-- Popup de confirmation à côté du bouton -->
-          <div v-if="showPopup" class="ml-4 bg-green-500 text-white p-3 rounded-md shadow-lg">
+          <div v-if="showPopup" class="ml-0 md:ml-4 mt-4 md:mt-0 bg-green-500 text-white p-3 rounded-md shadow-lg w-full md:w-auto text-center">
             Message envoyé avec succès !
           </div>
         </div>
@@ -151,5 +151,16 @@ export default {
 <style scoped>
 .border-red-500 {
   border-color: #f56565;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  button {
+    width: auto;
+  }
 }
 </style>
