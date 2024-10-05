@@ -10,9 +10,9 @@
         <div>
           <p class="text-white">Stéphane CHAIGNEAU</p>
           <p class="mt-2">41 Rue André Soulard<br>85000 La Roche-sur-Yon, France</p>
-          <a href="mailto:stephane.chaigneau@hotmail.fr" class="mt-2 flex items-center text-white hover:underline">
+          <a href="mailto:stephane.chaigneau@devco-agro.com" class="mt-2 flex items-center text-white hover:underline">
             <i class="fas fa-envelope mr-2"></i>
-            stephane.chaigneau@hotmail.fr
+            stephane.chaigneau@devco-agro.com
           </a>
           <a href="tel:+33674814090" class="flex items-center text-white hover:underline">
             <i class="fas fa-phone-alt mr-2"></i>
