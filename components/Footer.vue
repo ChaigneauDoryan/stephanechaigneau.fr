@@ -4,7 +4,7 @@
       <!-- Logo et Adresse -->
       <div class="flex items-start">
         <!-- Logo -->
-        <img src="../assets/me.jpg" alt="Logo" class="w-20 h-full object-cover mr-4" />
+        <img src="../assets/me.jpg" alt="Me" class="w-20 h-full object-cover mr-4" />
 
         <!-- Informations de Contact -->
         <div>
