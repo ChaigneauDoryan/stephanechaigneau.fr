@@ -5,7 +5,7 @@
         <div class="flex justify-center mb-6">
           <img src="../assets/devco-agro.png" alt="DevcoAgro" class="w-96 h-auto object-cover" />
         </div>
-        <h3 class="text-5xl text-gray-800 font-bold mb-2">
+        <h3 class="text-4xl text-gray-800 font-bold mb-2">
           Consultant indépendant spécialisé dans le développement commercial et l'innovation
         </h3>
         <p class="text-xl text-gray-800 mb-2">
